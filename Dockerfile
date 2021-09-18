@@ -1,3 +1,7 @@
+# Dockerfile from the article
+# https://keepforyourself.com/coding/php/how-to-setup-phalcon-framework-in-a-docker-container/
+# Setup phalcon 3.4.5 on Ubuntu 18.04 and Apache
+#
 FROM ubuntu:18.04 as intermediate
 # install the dependencies
 ENV DEBIAN_FRONTEND noninteractive
